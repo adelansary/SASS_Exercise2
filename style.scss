@@ -26,10 +26,10 @@ div {
   }
 
   article:nth-child(odd) {
-    @include article-card($color-secondary, $color-tertiary);
+    @include article-card($color-primary, $color-tertiary);
   }
   article:nth-child(even) {
-    @include article-card($color-primary, $color-tertiary);
+    @include article-card($color-secondary, $color-tertiary);
   }
   article:last-child {
     @include article-card($color-tertiary, $color-secondary, 24px);

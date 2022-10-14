@@ -15,14 +15,14 @@ div h1 {
   justify-self: center;
 }
 div article:nth-child(odd) {
-  color: blue;
+  color: red;
   padding: 25px 15px;
   text-align: center;
   border: 1px solid green;
   font-size: 1rem;
 }
 div article:nth-child(even) {
-  color: red;
+  color: blue;
   padding: 25px 15px;
   text-align: center;
   border: 1px solid green;
